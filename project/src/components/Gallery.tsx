@@ -3,6 +3,7 @@ import VideoBackground from './VideoBackground';
 import FeaturedVideo from './FeaturedVideo';
 import CountdownTimer from './CountdownTimer';
 import SocialLinks from './SocialLinks';
+import CopyPlaceholder from './CopyPlaceholder';
 
 export default function Gallery() {
   return (
@@ -17,6 +18,7 @@ export default function Gallery() {
             alt="Real Life Art"
             className="w-[1200px] mx-auto"
           />
+          <CopyPlaceholder />
           <SocialLinks />
         </div>
       </section>
