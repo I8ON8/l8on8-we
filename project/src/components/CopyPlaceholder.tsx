@@ -3,7 +3,7 @@ import { Copy, Check } from 'lucide-react';
 
 export default function CopyPlaceholder() {
   const [copied, setCopied] = useState(false);
-  const placeholder = "SENDdRQtYMWaQrBroBrJ2Q53fgVuq95CV9UPGEvpCxa";
+  const placeholder = "test";
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(placeholder);
